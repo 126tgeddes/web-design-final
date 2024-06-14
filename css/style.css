@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+    text-align: right;
+}
+.hero-text {
+    max-width: 50%;
+}
+.hero-text h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.hero-text p {
+    font-size: 1rem;
+    margin: 1rem 0;
+}
+.contact-btn {
+    background-color: #00C0C8;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.contact-btn:hover {
+    background-color: #00a2a8;
+    color: white;
+}
+.hero-image {
+    max-width: 50%;
+    padding-left: 50px;
+}
+.hero-image img {
+    width: 100%;
+}
+.navbar-nav .nav-item .nav-link {
+    color: #333;
+}
+.navbar-nav .nav-item .nav-link:hover {
+    color: #00C0C8;
+}
